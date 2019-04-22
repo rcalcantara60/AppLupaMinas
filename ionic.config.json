@@ -1,0 +1,7 @@
+{
+  "name": "LupaDeMinasApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

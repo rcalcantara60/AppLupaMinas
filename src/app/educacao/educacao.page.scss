@@ -1,0 +1,102 @@
+ion-grid{
+    background: url('src/assets/img/bgApp.svg') repeat-y center center fixed;
+    background-size: cover;
+    //height: 100%;
+    padding: 0 5%;
+}
+
+.tituloAssuntos{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bgTransparente{
+    background: url('src/assets/img/bgTransparente.svg'); 
+    padding: 7px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.bgSetoresEducacao{
+    background: url('src/assets/img/background_setores_educacao.svg'); 
+    background-size: cover;
+}
+
+.bgSetoresEducacao .camada1{
+    position: relative;
+    z-index: 0;
+    top: 13%;
+}
+
+.bgSetoresEducacao .camada1 ion-col:nth-child(1) img{
+    margin-top: 18%;
+}
+
+.bgSetoresEducacao .camada2{
+    position: relative;
+    z-index: 1;
+}
+
+.bgSetoresEducacao .camada2 ion-col{
+
+}
+
+.bgSetoresEducacao .camada2 ion-col img{
+    
+}
+
+.profissionaisMagistrados{
+    background: url('src/assets/img/background_gastos_profissionais.svg'); 
+    background-size: cover;
+}
+
+.profissionaisMagistrados .quadro{
+    background: url('src/assets/img/quadro.svg') no-repeat; 
+    padding: 5%;
+}
+
+.profissionaisMagistrados .quadro ion-row{
+
+}
+
+.profissionaisMagistrados .quadro ion-row ion-col{
+
+}
+
+.profissionaisMagistrados .quadro ion-row ion-col img{
+
+}
+
+.profissionaisMagistrados .quadro ion-row ion-col h3{
+ font-size: 11px;
+ margin-top:0;
+ margin-bottom: 0;
+}
+
+.profissionaisMagistrados .quadro ion-row ion-col span{
+
+}
+
+.profissionaisMagistrados .mesa{
+    padding: 26%;
+}
+
+
+
+.alunosMatriculados{}
+
+.alunosMatriculados ion-col:nth-child(1){
+    background: url('src/assets/img/ensino_infantil_alunos_matriculados.svg'); 
+    background-size: cover;
+}
+
+.alunosMatriculados ion-col:nth-child(2){
+    background: url('src/assets/img/ensino_fundamental_alunos_matriculados.svg'); 
+    background-size: cover;
+}
+
+.indiceDesenvolvimento{
+    background: url('src/assets/img/background_indice_desenvolvimento.svg'); 
+    background-size: cover;
+}
