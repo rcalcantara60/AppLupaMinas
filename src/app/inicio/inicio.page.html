@@ -1,0 +1,45 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="logomarca">
+      <ion-col>
+        <img [src]="image" alt="" />
+      </ion-col>
+    </ion-row>
+    <ion-row class="linhaCampos">
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label>MUNICÍPIO</ion-label>
+            <ion-select placeholder="Escolha a cidade">
+              <ion-select-option value="belo-horizonte">Belo Horizonte</ion-select-option>
+              <ion-select-option value="betim">Betim</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row class="linhaCampos">
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label>ANO</ion-label>
+            <ion-select placeholder="Escolha o ano">
+              <ion-select-option value="2018">2018</ion-select-option>
+              <ion-select-option value="2017">2017</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button color="success">Entrar</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="logomarcaFooter">
+      <ion-col>
+        <img [src]="imageRodape" alt="" />
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
