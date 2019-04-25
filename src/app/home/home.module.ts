@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { BottonMenuTabModule } from '../components/botton-menu-tab/botton-menu-tab.module';
 
 @NgModule({
   imports: [

@@ -3,7 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', loadChildren: './inicio/inicio.module#InicioPageModule' },
   { path: 'home', component: HomePage, children: [
     { path: '', redirectTo: 'educacao', pathMatch: 'full' },
