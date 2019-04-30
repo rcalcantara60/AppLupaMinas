@@ -29,6 +29,10 @@ export class EducacaoPage implements OnInit {
   //Comparativo de Número de alunos do ensino Infantil x Fundamental
   legendaMatriculados = "assets/img/legenda_alunos_matriculados.svg";
 
+  //Índice de Desenvolvimento da Educação Básica no Município
+  quartaQuintaSerie = "assets/img/quarta_quinta_serie.svg";
+  oitavaNonaSerie = "assets/img/oitava_nona_serie.svg";
+
   constructor() { }
 
   ngOnInit() {

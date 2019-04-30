@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inicio.page.scss'],
 })
 export class InicioPage implements OnInit {
+
   image = 'assets/img/logoHome.svg';
   imageRodape = 'assets/img/rodapeHome.svg';
   constructor() { }

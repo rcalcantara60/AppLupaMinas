@@ -5,10 +5,7 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
   { path: '', redirectTo: 'inicio', pathMatch: 'full' },
   { path: 'inicio', loadChildren: './inicio/inicio.module#InicioPageModule' },
-  { path: 'home', component: HomePage, children: [
-    { path: '', redirectTo: 'educacao', pathMatch: 'full' },
-    { path: 'educacao', loadChildren: './educacao/educacao.module#EducacaoPageModule' }
-  ]}
+  { path: 'menu', loadChildren: './menu/menu.module#MenuPageModule' }
 ];
 
 @NgModule({

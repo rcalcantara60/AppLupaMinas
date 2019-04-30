@@ -5,7 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 @NgModule({
-  declarations: [],
+  declarations: [ BottonMenuTabComponent ],
+  exports: [ BottonMenuTabComponent ],
   imports: [
     CommonModule,
     FormsModule,

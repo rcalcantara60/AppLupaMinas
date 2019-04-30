@@ -100,3 +100,43 @@ ion-grid{
     background: url('src/assets/img/background_indice_desenvolvimento.svg'); 
     background-size: cover;
 }
+
+.indiceDesenvolvimento .quadro{
+
+}
+
+.indiceDesenvolvimento .quadro ion-col{
+    background: url('src/assets/img/indice_desenvolvimento_quadro.svg'); 
+    background-size: cover;
+    padding: 11% 0;
+}
+
+.indiceDesenvolvimento .personagens{
+    
+}
+
+.indiceDesenvolvimento .avaliacaoMeta{
+    
+}
+
+.indiceDesenvolvimento .avaliacaoMeta .pontuacao_meta_cumprida{
+    background: url('src/assets/img/pontuacao_meta_cumprida.svg') no-repeat; 
+    background-size: cover;
+    padding: 19% 0;
+    margin-bottom: 5%;
+
+}
+
+.indiceDesenvolvimento .avaliacaoMeta .meta_cumprida{
+    background: url('src/assets/img/cumpriu_meta.svg') no-repeat; 
+    background-size: cover;
+    padding: 16% 0;
+}
+
+.indiceDesenvolvimento .avaliacaoMeta .pontuacao_meta_cumprida.nao_cumprida{
+    background: url('src/assets/img/pontuacao_meta_nao_cumprida.svg') no-repeat; 
+}
+
+.indiceDesenvolvimento .avaliacaoMeta .meta_cumprida.nao_cumprida{
+    background: url('src/assets/img/nao_cumpriu_meta.svg') no-repeat; 
+}
