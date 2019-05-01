@@ -9,12 +9,17 @@ import { MenuPage } from './menu.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'menu',
     component: MenuPage,
     children: [
-      { path: '', redirectTo: 'home-tabs', pathMatch: 'full' },
-      { path: 'home-tabs', loadChildren: '../home-tabs/home-tabs.module#HomeTabsPageModule' }
-  ]}
+      { path: 'home-tabs', loadChildren: '../home-tabs/home-tabs.module#HomeTabsPageModule' },
+      { path: 'home-tabs/home', loadChildren: '../home/home.module#HomePageModule' },
+      // { path: 'prestacao-contas', loadChildren: '../prestacao-contas/prestacao-contas.module#PrestacaoContasPageModule' },
+      // { path: 'processos-julgados', loadChildren: '../processos-julgados/processos-julgados.module#ProcessosJulgadosPageModule' },
+      // { path: 'convenios', loadChildren: '../convenios/convenios.module#ConveniosPageModule' }
+    ]
+  },
+  { path: '', redirectTo: 'menu/convenios', pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -26,4 +31,4 @@ const routes: Routes = [
   ],
   declarations: [MenuPage]
 })
-export class MenuPageModule {}
+export class MenuPageModule { }

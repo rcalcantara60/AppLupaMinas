@@ -9,7 +9,7 @@
 <ion-content padding>
     <ion-tabs >
         <ion-tab-bar slot="top">
-          <ion-tab-button tab="educacao">
+          <ion-tab-button (click)="onClick()" routerLink="/menu/home-tabs/home/educacao" [selected]=selectedEducacao>
             <ion-label>Educação</ion-label>
           </ion-tab-button>
           <ion-tab-button tab="saude">              

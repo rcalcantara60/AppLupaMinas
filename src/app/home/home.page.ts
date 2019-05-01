@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-image = 'assets/img/logoHome.svg';
-imageRodape = 'assets/img/rodapeHome.svg';
+  image = 'assets/img/logoHome.svg';
+  imageRodape = 'assets/img/rodapeHome.svg';
+  selectedEducacao: boolean;
 
+  constructor(private routerCtrl: NavController) {
+    this.selectedEducacao = false;
+  }
+
+  onClick() {
+    this.selectedEducacao = true;
+  }
 }

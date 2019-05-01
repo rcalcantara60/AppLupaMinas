@@ -1,201 +1,185 @@
+<ion-content>
+  <ion-grid>
+    <!-- Receita x Despesa na Educação -->
+    <ion-row>
+      <ion-col>
+        <h2 class="tituloAssuntos">Receita X Despesa na Educação</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row class="bgTransparente">
+      <ion-col size="5">
+        <div>
+          <img [src]="imageReceitaDespesa" alt="" />
+        </div>
+      </ion-col>
+    </ion-row>
+    <!-- FIM Receita x Despesa na Educação -->
+    <!-- Aplicações nos Setores da Educação -->
+    <ion-row>
+      <ion-col>
+        <h2 class="tituloAssuntos">Aplicações nos Setores da Educação</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row class="bgSetoresEducacao">
+      <ion-col>
+        <ion-row class="camada1">
+          <ion-col size="6">
+            <img [src]="onibus" alt="" />
+          </ion-col>
+          <ion-col size="6">
+            <img [src]="escola" alt="" />
+          </ion-col>
+        </ion-row>
+        <ion-row class="camada2">
+          <ion-col size="1">
+            <img [src]="merenda" alt="" />
+          </ion-col>
+          <ion-col size="2">
+            <img [src]="ensinoInfantil" alt="" />
+          </ion-col>
+          <ion-col size="2">
+            <img [src]="ensinoFundamental" alt="" />
+          </ion-col>
+          <ion-col size="2">
+            <img [src]="educacaoJovensAdultos" alt="" />
+          </ion-col>
+          <ion-col size="2">
+            <img [src]="educacaoEspecial" alt="" />
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <!-- FIM Aplicações nos Setores da Educação -->
+    <!-- Gastos com os Profisisonais do Magistério por Setores -->
+    <ion-row>
+      <ion-col>
+        <h2 class="tituloAssuntos">Gastos com os Profisisonais do Magistério por Setores</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row class="profissionaisMagistrados">
+      <ion-col>
+        <div class="quadro">
+          <ion-row>
+            <ion-col size="3">
+              <img [src]="magisterioEnsinoInfantil" alt="" />
+            </ion-col>
+            <ion-col size="9">
+              <h3>Profissionais do Magistério do Ensino Infantil</h3>
+              <span>600 mil</span>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="3">
+              <img [src]="magisterioEnsinoFundamental" alt="" />
+            </ion-col>
+            <ion-col size="9">
+              <h3>Profissionais do Magistério do Ensino Fundamental</h3>
+              <span>1 Milhão</span>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="3">
+              <img [src]="magisterioJovensAdultos" alt="" />
+            </ion-col>
+            <ion-col size="9">
+              <h3>Profissionais do Magistério da Educação de Jovens
+                e Adultos (EJA)</h3>
+              <span>550 mil</span>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="3">
+              <img [src]="magisterioEducacaoEspecial" alt="" />
+            </ion-col>
+            <ion-col size="9">
+              <h3>Profissionais do Magistério da Educação Especial</h3>
+              <span>220 mil</span>
+            </ion-col>
+          </ion-row>
+        </div>
+        <div class="mesa"></div>
+      </ion-col>
+    </ion-row>
+    <!-- FIM Gastos com os Profisisonais do Magistério por Setores -->
+    <!-- Comparativo de Número de alunos do ensino Infantil x Fundamental -->
+    <ion-row>
+      <ion-col>
+        <h2 class="tituloAssuntos">Comparativo de Número de alunos do ensino Infantil x Fundamental</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row class="alunosMatriculados">
+      <ion-col>
+        <div style="padding: 64% 0;"></div>
+      </ion-col>
+      <ion-col>
+        <div style="padding: 64% 0;"></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <img [src]="legendaMatriculados" alt="" />
+      </ion-col>
+    </ion-row>
+    <!-- FIM Comparativo de Número de alunos do ensino Infantil x Fundamental -->
+    <!-- Índice de Desenvolvimento da Educação Básica no Município -->
+    <ion-row>
+      <ion-col>
+        <h2 class="tituloAssuntos">Índice de Desenvolvimento da Educação Básica no Município</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="bgTransparente">
+          O Índice de Desenvolvimento da Educação Básica (IDEB) é um indicador criado pelo governo federal para medir a
+          qualidade do ensino nas escolas públicas.
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="indiceDesenvolvimento">
+      <ion-col>
+        <ion-row class="quadro">
+          <ion-col></ion-col>
+          <ion-col></ion-col>
+        </ion-row>
+        <ion-row class="personagens">
+          <ion-col>
+            <img [src]="quartaQuintaSerie" alt="" />
+          </ion-col>
+          <ion-col>
+            <img [src]="oitavaNonaSerie" alt="" />
+          </ion-col>
+        </ion-row>
+        <ion-row class="avaliacaoMeta">
+          <ion-col>
+            <ion-row class="pontuacao_meta_cumprida">
+              <ion-col>
 
-        <ion-header>
-                <ion-toolbar>
-                  <ion-title>
-                      <h1>Transparência para Controle Social</h1>
-                  </ion-title>
-                </ion-toolbar>
-              </ion-header>              
+              </ion-col>
+            </ion-row>
+            <ion-row class="meta_cumprida">
+              <ion-col>
 
-                      <ion-content>
-                        <ion-grid>
-                          <!-- Receita x Despesa na Educação -->
-                          <ion-row>
-                            <ion-col>
-                              <h2 class="tituloAssuntos">Receita X Despesa na Educação</h2>
-                            </ion-col>
-                          </ion-row>
-                          <ion-row class="bgTransparente">
-                            <ion-col size="5">
-                              <div>
-                                <img [src]="imageReceitaDespesa" alt="" />
-                              </div>
-                            </ion-col>
-                          </ion-row>
-                          <!-- FIM Receita x Despesa na Educação -->
-                          <!-- Aplicações nos Setores da Educação -->
-                          <ion-row>
-                              <ion-col>
-                                <h2 class="tituloAssuntos">Aplicações nos Setores da Educação</h2>
-                              </ion-col>
-                            </ion-row>
-                            <ion-row class="bgSetoresEducacao">
-                              <ion-col>
-                                  <ion-row class="camada1">
-                                    <ion-col size="6">
-                                        <img [src]="onibus" alt="" />
-                                    </ion-col>
-                                    <ion-col size="6">
-                                        <img [src]="escola" alt="" />
-                                    </ion-col>
-                                  </ion-row>
-                                  <ion-row class="camada2">
-                                      <ion-col size="1">
-                                          <img [src]="merenda" alt="" />
-                                      </ion-col>
-                                      <ion-col size="2">
-                                          <img [src]="ensinoInfantil" alt="" />
-                                      </ion-col>
-                                      <ion-col size="2">
-                                          <img [src]="ensinoFundamental" alt="" />
-                                      </ion-col>
-                                      <ion-col size="2">
-                                          <img [src]="educacaoJovensAdultos" alt="" />
-                                      </ion-col>
-                                      <ion-col size="2">
-                                          <img [src]="educacaoEspecial" alt="" />
-                                      </ion-col>
-                                  </ion-row>
-                              </ion-col>
-                            </ion-row>
-                            <!-- FIM Aplicações nos Setores da Educação -->
-                            <!-- Gastos com os Profisisonais do Magistério por Setores -->
-                            <ion-row>
-                                <ion-col>
-                                  <h2 class="tituloAssuntos">Gastos com os Profisisonais do Magistério por Setores</h2>
-                                </ion-col>
-                              </ion-row>
-                              <ion-row class="profissionaisMagistrados">
-                                  <ion-col>
-                                    <div class="quadro">
-                                        <ion-row>
-                                            <ion-col size="3">
-                                                <img [src]="magisterioEnsinoInfantil" alt="" />
-                                            </ion-col>
-                                            <ion-col size="9">
-                                              <h3>Profissionais do Magistério do Ensino Infantil</h3>
-                                              <span>600 mil</span>
-                                            </ion-col>
-                                        </ion-row>
-                                        <ion-row>
-                                            <ion-col size="3">
-                                                <img [src]="magisterioEnsinoFundamental" alt="" />
-                                            </ion-col>
-                                            <ion-col size="9">
-                                              <h3>Profissionais do Magistério do Ensino Fundamental</h3>
-                                              <span>1 Milhão</span>
-                                            </ion-col>
-                                        </ion-row>
-                                        <ion-row>
-                                            <ion-col size="3">
-                                                <img [src]="magisterioJovensAdultos" alt="" />
-                                            </ion-col>
-                                            <ion-col size="9">
-                                              <h3>Profissionais do Magistério da Educação de Jovens 
-                                                  e Adultos (EJA)</h3>
-                                              <span>550 mil</span>
-                                            </ion-col>
-                                        </ion-row>
-                                        <ion-row>
-                                            <ion-col size="3">
-                                                <img [src]="magisterioEducacaoEspecial" alt="" />
-                                            </ion-col>
-                                            <ion-col size="9">
-                                              <h3>Profissionais do Magistério da Educação Especial</h3>
-                                              <span>220 mil</span>
-                                            </ion-col>
-                                        </ion-row>
-                                    </div>   
-                                    <div class="mesa"></div>                                 
-                                  </ion-col>
-                                </ion-row>
-                             <!-- FIM Gastos com os Profisisonais do Magistério por Setores -->   
-                             <!-- Comparativo de Número de alunos do ensino Infantil x Fundamental --> 
-                             <ion-row>
-                                <ion-col>
-                                  <h2 class="tituloAssuntos">Comparativo de Número de alunos do ensino Infantil x Fundamental</h2>
-                                </ion-col>
-                              </ion-row>
-                              <ion-row class="alunosMatriculados">
-                                <ion-col>
-                                  <div style="padding: 64% 0;"></div>
-                                </ion-col>
-                                <ion-col>
-                                    <div style="padding: 64% 0;"></div>
-                                </ion-col>
-                              </ion-row>
-                              <ion-row>
-                                  <ion-col>
-                                      <img [src]="legendaMatriculados" alt="" />
-                                  </ion-col>
-                              </ion-row>
-                             <!-- FIM Comparativo de Número de alunos do ensino Infantil x Fundamental -->   
-                             <!-- Índice de Desenvolvimento da Educação Básica no Município -->
-                             <ion-row>
-                                <ion-col>
-                                  <h2 class="tituloAssuntos">Índice de Desenvolvimento da Educação Básica no Município</h2>
-                                </ion-col>
-                              </ion-row>
-                              <ion-row>
-                                  <ion-col>
-                                    <div class="bgTransparente">
-                                        O Índice de Desenvolvimento da Educação Básica (IDEB) é um indicador criado pelo governo federal para medir a qualidade do ensino nas escolas públicas.
-                                    </div>
-                                  </ion-col>
-                              </ion-row>
-                              <ion-row class="indiceDesenvolvimento">
-                                  <ion-col>
-                                    <ion-row class="quadro">
-                                      <ion-col></ion-col>
-                                      <ion-col></ion-col>
-                                    </ion-row>
-                                    <ion-row class="personagens">
-                                        <ion-col>
-                                            <img [src]="quartaQuintaSerie" alt="" />
-                                        </ion-col>
-                                        <ion-col>
-                                            <img [src]="oitavaNonaSerie" alt="" />
-                                        </ion-col>
-                                      </ion-row>
-                                      <ion-row class="avaliacaoMeta">
-                                          <ion-col>
-                                              <ion-row class="pontuacao_meta_cumprida">
-                                                  <ion-col>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col>
+            <ion-row class="pontuacao_meta_cumprida nao_cumprida">
+              <ion-col>
 
-                                                  </ion-col>
-                                              </ion-row>
-                                              <ion-row class="meta_cumprida">
-                                                <ion-col>
-                                                    
-                                                </ion-col>
-                                            </ion-row>
-                                          </ion-col>
-                                          <ion-col>
-                                            <ion-row class="pontuacao_meta_cumprida nao_cumprida">
-                                                <ion-col>
+              </ion-col>
+              <ion-col>
 
-                                                </ion-col>
-                                                <ion-col>
+              </ion-col>
+            </ion-row>
+            <ion-row class="meta_cumprida nao_cumprida">
+              <ion-col>
 
-                                                </ion-col>
-                                            </ion-row>
-                                            <ion-row class="meta_cumprida nao_cumprida">
-                                              <ion-col>
-                                                  
-                                              </ion-col>
-                                          </ion-row>
-                                          </ion-col>
-                                        </ion-row>
-                                  </ion-col>
-                              </ion-row>
-                             <!-- FIM Índice de Desenvolvimento da Educação Básica no Município --> 
-                        </ion-grid>
-                      </ion-content>
-              
-              <ion-footer>
-                  <ion-toolbar>
-                    <ion-title>Footer</ion-title>     
-                  </ion-toolbar>
-              </ion-footer>
-
-
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <!-- FIM Índice de Desenvolvimento da Educação Básica no Município -->
+  </ion-grid>
+</ion-content>

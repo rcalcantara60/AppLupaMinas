@@ -12,11 +12,11 @@ const routes: Routes = [
     path: '',
     component: HomeTabsPage,
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full'},
-      { path: 'home', loadChildren: '../home/home.module#HomePageModule'},
-      { path: 'prestacao-contas', loadChildren: '../prestacao-contas/prestacao-contas.module#PrestacaoContasPageModule' },
-      { path: 'processos-julgados', loadChildren: '../processos-julgados/processos-julgados.module#ProcessosJulgadosPageModule' },
-      { path: 'convenios', loadChildren: '../convenios/convenios.module#ConveniosPageModule' }
+    //   // { path: '', redirectTo: 'home', pathMatch: 'full'},
+    { path: 'home', loadChildren: '../home/home.module#HomePageModule'},
+    { path: 'prestacao-contas', loadChildren: '../prestacao-contas/prestacao-contas.module#PrestacaoContasPageModule' },
+    { path: 'processos-julgados', loadChildren: '../processos-julgados/processos-julgados.module#ProcessosJulgadosPageModule' },
+    { path: 'convenios', loadChildren: '../convenios/convenios.module#ConveniosPageModule' }
     ]
   }
 ];
